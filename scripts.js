@@ -1,6 +1,5 @@
 const inputSlider = document.querySelector("[data-lengthSlider]");
 const lengthDisplay = document.querySelector("[data-lengthNumber]");
-
 const passwordDisplay = document.querySelector("[data-passwordDisplay]");
 const copyBtn = document.querySelector("[data-copy]");
 const copyMsg = document.querySelector("[data-copyMsg]");
@@ -152,31 +151,13 @@ generateBtn.addEventListener('click', () => {
       handleSlider();
   }
 
-  // let's start the jouney to find new password
+  
   console.log("Starting the Journey");
 
   
   //remove old password
   password = "";
   passwordDisplay.value = password; 
-
-  //let's put the stuff mentioned by checkboxes
-
-  // if(uppercaseCheck.checked) {
-  //     password += generateUpperCase();
-  // }
-
-  // if(lowercaseCheck.checked) {
-  //     password += generateLowerCase();
-  // }
-
-  // if(numbersCheck.checked) {
-  //     password += generateRandomNumber();
-  // }
-
-  // if(symbolsCheck.checked) {
-  //     password += generateSymbol();
-  // }
 
   let funcArr = [];
 
